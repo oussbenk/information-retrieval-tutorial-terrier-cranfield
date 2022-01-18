@@ -1,4 +1,12 @@
+# :books: Information Retrieval Tutorial using Terrier with Cranfield collection
 
+![Information Retrieval Tutorial using Terrier](https://github.com/oussbenk/information-retrieval-tutorial-terrier-cranfield/blob/main/screenshots/tutorial-terrier-1024x240.jpg?raw=true)
+
+We present in this tutorial a starter guide to understand Information Retrieval in practice using [Terrier platform](http://terrier.org) with [Cranfield dataset :link:](https://github.com/oussbenk/cranfield-trec-dataset).
+
+- **Author** : Dr. [Oussama Ben Khiroun](https://oussamabenkhiroun.com/)
+
+## Table of contents
 - [1. Requirements](#1-requirements)
 - [2. How to install Terrier v5.5 ?](#2-how-to-install-terrier-v55-)
 - [3. What is Cranfield dataset ?](#3-what-is-cranfield-dataset-)
@@ -13,14 +21,8 @@
 - [8. References](#8-references)
 - [9. Credits](#9-credits)
 
-:books: Information Retrieval Tutorial using Terrier with Cranfield collection
-
-![Information Retrieval Tutorial using Terrier](https://github.com/oussbenk/information-retrieval-tutorial-terrier-cranfield/blob/main/screenshots/tutorial-terrier-1024x240.jpg?raw=true)
-
-We present in this tutorial a starter guide to understand Information Retrieval in practice using [Terrier platform](http://terrier.org) with [Cranfield dataset :link:](https://github.com/oussbenk/cranfield-trec-dataset).
-
 ## 1. Requirements
-We will use the version 5.5 of Terrier (the last stable version while editing this tutorial). Using this version requires having **version 11 or greater of Java**.
+We will use the **version 5.5 of Terrier** (the last stable version while editing this tutorial). Using this version requires having **version 11 or greater of Java**.
 Java command should be also recognized in operating system paths.
 >Terrier will be used in this tutorial on **Windows**. However, all the steps are similar in Linux or Mac OS since Terrier is written in Java and it is portable.
 
@@ -161,6 +163,8 @@ This displays the number of documents, number of tokens, number of terms, found 
 The help of available Terrier commands can be displayed by typing `terrier` as follows
 
 ```
+> terrier
+
 Popular commands:
         batchevaluate           platform        evaluate all run result files in the results directory
         batchindexing           platform        allows a static collection of documents to be indexed
